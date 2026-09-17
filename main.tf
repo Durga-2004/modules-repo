@@ -6,7 +6,7 @@ module "ec2_module" {
 
   instance_type = "t3.micro"
 
-  ami_id = "ami-0fe65665c4d6f0de7"
+  ami_id = "ami-098f18a6382fb4b2d"
 
 }
  
