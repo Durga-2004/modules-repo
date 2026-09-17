@@ -1,6 +1,6 @@
 module "ec2_module" {
 
-  source = "./modules/ec2-module"
+  source = "./modules/ec2"
 
   instance_name = "tbdp-bi-ec2"
 
@@ -12,7 +12,7 @@ module "ec2_module" {
  
 module "dynamodb_module" {
 
-  source = "./modules/dynamodb_module"
+  source = "./modules/DynamoDB"
 
   table_name = "tbdp-bi-employee-table"
 
